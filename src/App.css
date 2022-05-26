@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+button {
+  margin: 10px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #fff;
+  padding: 23px 50px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  border: 0px;
+  cursor: pointer;
+}
+.green {
+  background-color: rgb(6, 172, 0);
+}
+.red {
+  background-color: rgb(221, 52, 66);
+}
+.red:disabled {
+  background-color: rgb(193, 191, 191);
+  cursor: not-allowed;
+}
+.cart {
+  text-align: center;
+}
